@@ -47,9 +47,4 @@ class App extends Component {
     }
 }
 
-{/*<Route exact path='/' component={DummyTable}/>
-                    <Route path='/dummyTable' component={DummyTable}/>
-                    <Route path='/dummyList' component={DummyList}/>
-                    <Route path='/dummyChart' component={DummyChart}/>*/
-}
 export default App;
