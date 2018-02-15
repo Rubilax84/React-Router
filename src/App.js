@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Route, Link, Switch} from "react-router-dom";
+import {Link, Route, Switch} from "react-router-dom";
 import Loadable from 'react-loadable';
 
-const Loading = () => <div>Loading...</div>;
+const Loading = () => <p>Loading...</p>;
 
 class App extends Component {
 

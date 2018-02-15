@@ -1,9 +1,7 @@
-import React, {Component} from 'react';
+import React from "react"
 
-class DummyTable extends Component {
-    render() {
-        return (<p>Hello DummyTable</p>)
-    }
-}
+const DummyTable = () => (
+    <table><tr><td>Dummy</td><td>Table</td></tr></table>
+)
 
-export default DummyTable;
+export default DummyTable
